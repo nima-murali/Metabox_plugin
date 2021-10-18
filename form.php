@@ -11,7 +11,6 @@
 		<input type="checkbox" id="author-enable-check" name="author-enable-check" value="True">
 	<?php
 	}
-
 	wp_nonce_field( 'save_author_name', 'author_name_nonce_field' ); ?>
 
 
